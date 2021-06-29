@@ -33,6 +33,13 @@
         >
           About
         </v-btn>
+        <v-btn href="http://localhost:9000/"
+          text
+          dark
+          small
+        >
+          Multi-Mission
+        </v-btn>
       </template>
       <v-spacer></v-spacer>
       <img class="header__logo" :src="appConfig && appConfig.branding.headerLogo" />
